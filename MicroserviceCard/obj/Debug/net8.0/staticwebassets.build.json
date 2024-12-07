@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "y4c5QhH6Qbxf/aFTlIl4gbcLpO8HtO4y8eqtJirbMtY=",
+  "Source": "MicroserviceCard",
+  "BasePath": "_content/MicroserviceCard",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
