@@ -1,4 +1,7 @@
-﻿@model IEnumerable<mvcGCards.Models.Card>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@using mvcGCards.Models
+@model IndexViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -9,38 +12,50 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form method="get">
+    <div>
+        <label>Имя: </label>
+        <input name="name" value="@Model.FilterViewModel.SelectedName" />
+
+        <label>Ranks: </label>
+        <select name="rank" asp-items="Model.FilterViewModel.Ranks"></select>
+
+        <input type="submit" value="Фильтр" />
+    </div>
+</form>
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                <a asp-action="Index"
+                   asp-route-sortOrder="@(Model.SortViewModel.NameSort)"
+                   asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                   asp-route-company="@(Model.FilterViewModel.SelectedRank)">Name</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DateOfCreate)
+                <a asp-action="Index" asp-route-sortOrder="@(Model.SortViewModel.RankSort)"
+                   asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                   asp-route-company="@(Model.FilterViewModel.SelectedRank)">Rank</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Description)
+                <a asp-action="Index" asp-route-sortOrder="@(Model.SortViewModel.NumberSort)"
+                   asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                   asp-route-company="@(Model.FilterViewModel.SelectedRank)">Number</a>
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th></th>
+
+            <th> Image</th>
+            <th> </th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.Cards) {
         <tr>
+                <td>@item.Name</td>
+                <td>@item.Rank</td>
+                <td>@item.Number</td>
             <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateOfCreate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.Raw("<img style='width:80px; height:60px;' src=\"data:image/jpeg;base64,"
+                @Html.Raw("<img style='width:70px; height:100px;' src=\"data:image/jpeg;base64,"
                     + Convert.ToBase64String(item.Image) + "\" />")
             </td>
             <td>
@@ -52,3 +67,27 @@
 }
     </tbody>
 </table>
+<p>
+    @if (Model.PageViewModel.HasPreviousPage)
+    {
+        <a asp-action="Index"
+           asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+           asp-route-name="@(Model.FilterViewModel.SelectedName)"
+           asp-route-company="@(Model.FilterViewModel.SelectedRank)"
+           asp-route-sortorder="@(Model.SortViewModel.Current)"
+           class="glyphicon glyphicon-chevron-left">
+            Назад
+        </a>
+    }
+    @if (Model.PageViewModel.HasNextPage)
+    {
+        <a asp-action="Index"
+           asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+           asp-route-name="@(Model.FilterViewModel.SelectedName)"
+           asp-route-company="@(Model.FilterViewModel.SelectedRank)"
+           asp-route-sortorder="@(Model.SortViewModel.Current)"
+           class="glyphicon glyphicon-chevron-right">
+            Вперед
+        </a>
+    }
+</p>
