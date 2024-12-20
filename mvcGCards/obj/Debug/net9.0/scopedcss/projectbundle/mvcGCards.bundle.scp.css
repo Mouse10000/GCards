@@ -41,9 +41,15 @@ button.accept-policy[b-6hw1lynh6r] {
 }
 
 .footer[b-6hw1lynh6r] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+body[b-6hw1lynh6r] {
+    background-color: black;
+    color: white;
 }

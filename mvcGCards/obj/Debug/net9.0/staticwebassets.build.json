@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jHucXjE69yE1JTinlifPNm4Mbp1j8jGLP6yWHZlji00=",
+  "Hash": "XLUXJrYQitSn8jNGcUWq3kh/vR9KrvuHBZ5Mz+MJTRI=",
   "Source": "mvcGCards",
   "BasePath": "_content/mvcGCards",
   "Mode": "Default",
@@ -1613,12 +1613,12 @@
       "OriginalItemSpec": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-yyfuw79ykr.gz",
+      "Identity": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-45j6m45a3s.gz",
       "SourceId": "mvcGCards",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/mvcGCards",
-      "RelativePath": "mvcGCards#[.{fingerprint=yyfuw79ykr}]?.styles.css.gz",
+      "RelativePath": "mvcGCards#[.{fingerprint=45j6m45a3s}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1627,8 +1627,8 @@
       "RelatedAsset": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\bundle\\mvcGCards.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xve0s87tr1",
-      "Integrity": "o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=",
+      "Fingerprint": "fraxntlnfl",
+      "Integrity": "RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\bundle\\mvcGCards.styles.css"
@@ -2936,12 +2936,12 @@
       "OriginalItemSpec": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-yyfuw79ykr.gz",
+      "Identity": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-45j6m45a3s.gz",
       "SourceId": "mvcGCards",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/mvcGCards",
-      "RelativePath": "mvcGCards#[.{fingerprint=yyfuw79ykr}]!.bundle.scp.css.gz",
+      "RelativePath": "mvcGCards#[.{fingerprint=45j6m45a3s}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -2950,8 +2950,8 @@
       "RelatedAsset": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\mvcGCards.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xve0s87tr1",
-      "Integrity": "o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=",
+      "Fingerprint": "fraxntlnfl",
+      "Integrity": "RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\mvcGCards.bundle.scp.css"
@@ -4000,8 +4000,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "yyfuw79ykr",
-      "Integrity": "WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=",
+      "Fingerprint": "45j6m45a3s",
+      "Integrity": "aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\bundle\\mvcGCards.styles.css"
@@ -4021,8 +4021,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "yyfuw79ykr",
-      "Integrity": "WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=",
+      "Fingerprint": "45j6m45a3s",
+      "Integrity": "aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\mvcGCards.bundle.scp.css"
@@ -34773,13 +34773,13 @@
       ]
     },
     {
-      "Route": "mvcGCards.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-yyfuw79ykr.gz",
+      "Route": "mvcGCards.45j6m45a3s.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-45j6m45a3s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001838235294"
+          "Quality": "0.001760563380"
         }
       ],
       "ResponseHeaders": [
@@ -34789,19 +34789,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "567"
         },
         {
           "Name": "ETag",
-          "Value": "\"o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=\""
+          "Value": "\"RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -34817,18 +34817,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=\""
+          "Value": "W/\"aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "45j6m45a3s"
+        },
+        {
+          "Name": "label",
+          "Value": "mvcGCards.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8="
+          "Value": "sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="
         }
       ]
     },
     {
-      "Route": "mvcGCards.bundle.scp.css",
+      "Route": "mvcGCards.45j6m45a3s.bundle.scp.css",
       "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\mvcGCards.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -34838,7 +34846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1260"
         },
         {
           "Name": "Content-Type",
@@ -34846,258 +34854,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=\""
+          "Value": "\"aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8="
-        }
-      ]
-    },
-    {
-      "Route": "mvcGCards.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-yyfuw79ykr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "543"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI="
-        }
-      ]
-    },
-    {
-      "Route": "mvcGCards.styles.css",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-yyfuw79ykr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001838235294"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "543"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8="
-        }
-      ]
-    },
-    {
-      "Route": "mvcGCards.styles.css",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\bundle\\mvcGCards.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1127"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8="
-        }
-      ]
-    },
-    {
-      "Route": "mvcGCards.styles.css.gz",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-yyfuw79ykr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "543"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI="
-        }
-      ]
-    },
-    {
-      "Route": "mvcGCards.yyfuw79ykr.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-yyfuw79ykr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001838235294"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "543"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yyfuw79ykr"
+          "Value": "45j6m45a3s"
         },
         {
           "Name": "label",
@@ -35105,13 +34876,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8="
+          "Value": "sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="
         }
       ]
     },
     {
-      "Route": "mvcGCards.yyfuw79ykr.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\mvcGCards.bundle.scp.css",
+      "Route": "mvcGCards.45j6m45a3s.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-45j6m45a3s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -35120,7 +34891,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "567"
         },
         {
           "Name": "Content-Type",
@@ -35128,56 +34899,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=\""
+          "Value": "\"RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yyfuw79ykr"
-        },
-        {
-          "Name": "label",
-          "Value": "mvcGCards.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8="
-        }
-      ]
-    },
-    {
-      "Route": "mvcGCards.yyfuw79ykr.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-yyfuw79ykr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "543"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35195,7 +34921,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yyfuw79ykr"
+          "Value": "45j6m45a3s"
         },
         {
           "Name": "label",
@@ -35203,18 +34929,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI="
+          "Value": "sha256-RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o="
         }
       ]
     },
     {
-      "Route": "mvcGCards.yyfuw79ykr.styles.css",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-yyfuw79ykr.gz",
+      "Route": "mvcGCards.45j6m45a3s.styles.css",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-45j6m45a3s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001838235294"
+          "Quality": "0.001760563380"
         }
       ],
       "ResponseHeaders": [
@@ -35224,15 +34950,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "567"
         },
         {
           "Name": "ETag",
-          "Value": "\"o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=\""
+          "Value": "\"RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35252,13 +34978,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=\""
+          "Value": "W/\"aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yyfuw79ykr"
+          "Value": "45j6m45a3s"
         },
         {
           "Name": "label",
@@ -35266,12 +34992,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8="
+          "Value": "sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="
         }
       ]
     },
     {
-      "Route": "mvcGCards.yyfuw79ykr.styles.css",
+      "Route": "mvcGCards.45j6m45a3s.styles.css",
       "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\bundle\\mvcGCards.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -35281,7 +35007,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1260"
         },
         {
           "Name": "Content-Type",
@@ -35289,11 +35015,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8=\""
+          "Value": "\"aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35303,7 +35029,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yyfuw79ykr"
+          "Value": "45j6m45a3s"
         },
         {
           "Name": "label",
@@ -35311,13 +35037,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WliQSdCcvhU5N4zHvrKyVaowVxLcxBoJRyM1CLg/0o8="
+          "Value": "sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="
         }
       ]
     },
     {
-      "Route": "mvcGCards.yyfuw79ykr.styles.css.gz",
-      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-yyfuw79ykr.gz",
+      "Route": "mvcGCards.45j6m45a3s.styles.css.gz",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-45j6m45a3s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -35326,7 +35052,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "567"
         },
         {
           "Name": "Content-Type",
@@ -35334,11 +35060,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI=\""
+          "Value": "\"RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 12:05:20 GMT"
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35356,7 +35082,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yyfuw79ykr"
+          "Value": "45j6m45a3s"
         },
         {
           "Name": "label",
@@ -35364,7 +35090,281 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-o0jH0oV+VfjoZP5FJdormjZITkFhvU53rZ3anj4OoYI="
+          "Value": "sha256-RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o="
+        }
+      ]
+    },
+    {
+      "Route": "mvcGCards.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-45j6m45a3s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001760563380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "567"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="
+        }
+      ]
+    },
+    {
+      "Route": "mvcGCards.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\mvcGCards.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="
+        }
+      ]
+    },
+    {
+      "Route": "mvcGCards.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\n8f1mo34sq-45j6m45a3s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o="
+        }
+      ]
+    },
+    {
+      "Route": "mvcGCards.styles.css",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-45j6m45a3s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001760563380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "567"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="
+        }
+      ]
+    },
+    {
+      "Route": "mvcGCards.styles.css",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\scopedcss\\bundle\\mvcGCards.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="
+        }
+      ]
+    },
+    {
+      "Route": "mvcGCards.styles.css.gz",
+      "AssetFile": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\obj\\Debug\\net9.0\\compressed\\5ure0oydfm-45j6m45a3s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 02:01:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RTCPvvNuY0GWm8PthL0q7s8fR1JUeGKdozhgj/6MS1o="
         }
       ]
     }

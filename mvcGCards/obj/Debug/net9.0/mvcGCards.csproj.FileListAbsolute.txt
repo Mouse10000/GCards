@@ -829,8 +829,6 @@ C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\3mxb25
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\jdk1ogimsa-muycvpuwrr.gz
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\9rexr27y4j-87fc7y1x7t.gz
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\6gtcsqw6l7-mlv21k5csn.gz
-C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\5ure0oydfm-yyfuw79ykr.gz
-C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\n8f1mo34sq-yyfuw79ykr.gz
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -847,3 +845,5 @@ C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\refint\mvcGCards.
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\mvcGCards.pdb
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\mvcGCards.genruntimeconfig.cache
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\ref\mvcGCards.dll
+C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\5ure0oydfm-45j6m45a3s.gz
+C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\n8f1mo34sq-45j6m45a3s.gz

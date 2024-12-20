@@ -7,15 +7,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
 <p>
     <a asp-action="Create">Create New</a>
 </p>
 <form method="get">
     <div>
         <label>Имя: </label>
-        <input name="name" value="@Model.FilterViewModel.SelectedName" />
+        <input name="name" value="@Model.FilterViewModel.SelectedName"/>
 
         <label>Ranks: </label>
         <select name="rank" asp-items="Model.FilterViewModel.Ranks"></select>
@@ -29,44 +27,102 @@
         <tr>
             <th>
                 <a asp-action="Index"
-                   asp-route-sortOrder="@(Model.SortViewModel.NameSort)"
-                   asp-route-name="@(Model.FilterViewModel.SelectedName)"
-                   asp-route-company="@(Model.FilterViewModel.SelectedRank)">Name</a>
+                asp-route-sortOrder="@(Model.SortViewModel.NameSort)"
+                asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                asp-route-company="@(Model.FilterViewModel.SelectedRank)">Name</a>
             </th>
             <th>
                 <a asp-action="Index" asp-route-sortOrder="@(Model.SortViewModel.RankSort)"
-                   asp-route-name="@(Model.FilterViewModel.SelectedName)"
-                   asp-route-company="@(Model.FilterViewModel.SelectedRank)">Rank</a>
+                asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                asp-route-company="@(Model.FilterViewModel.SelectedRank)">Rank</a>
             </th>
             <th>
                 <a asp-action="Index" asp-route-sortOrder="@(Model.SortViewModel.NumberSort)"
-                   asp-route-name="@(Model.FilterViewModel.SelectedName)"
-                   asp-route-company="@(Model.FilterViewModel.SelectedRank)">Number</a>
+                asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                asp-route-company="@(Model.FilterViewModel.SelectedRank)">Number</a>
             </th>
 
-            <th> Image</th>
-            <th> </th>
         </tr>
     </thead>
-    <tbody>
-@foreach (var item in Model.Cards) {
-        <tr>
+    <!-- tbody>
+        @foreach (var item in Model.Cards) {
+            <tr>
                 <td>@item.Name</td>
                 <td>@item.Rank</td>
                 <td>@item.Number</td>
-            <td>
-                @Html.Raw("<img style='width:70px; height:100px;' src=\"data:image/jpeg;base64,"
-                    + Convert.ToBase64String(item.Image) + "\" />")
-            </td>
-            <td>
+                <td>
+                    @Html.Raw("<img style='width:70px; height:100px;' src=\"data:image/jpeg;base64,"
+                                 + Convert.ToBase64String(item.Image) + "\" />")
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+
+        }
+    </tbody -->
+</table>
+
+<div class="card-container">
+    @foreach (var item in Model.Cards)
+    {
+        <div class="card">
+            <img src="data:image/jpeg;base64,@Convert.ToBase64String(item.Image)" />
+            <h3>@item.Name</h3>
+            <p>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+            </p>
+        </div>
+    }
+</div>
+<style type="text/css">
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Расстояние между карточками */
+    }
+
+    .card {
+        
+        border: 1px solid #ddd;
+        border-radius: 2%;
+        width: 32%; /* Ширина каждой карточки */
+
+        padding: 1%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background-color: #AAAAAA;
+        }
+
+        .card h3 {
+            margin: 0 0 10px;
+            font-size: 18px;
+        }
+
+        .card p {
+            margin: 0 0 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .card span {
+            font-weight: bold;
+            color: #333;
+        }
+
+
+</style>
+
+
+
 <p>
     @if (Model.PageViewModel.HasPreviousPage)
     {

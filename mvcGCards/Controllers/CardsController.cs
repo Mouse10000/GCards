@@ -27,12 +27,12 @@ namespace mvcGCards.Controllers
         public async Task<IActionResult> Index(string name, string rank = "all", int page = 1,
             SortState sortOrder = SortState.NameAsc)
         {
-            int pageSize = 5;
+            int pageSize = 9;
             //фильтрация
             IQueryable<Card> cards = _context.Card;
             if (!string.IsNullOrEmpty(rank) && rank != "all")
             {
-                cards = cards.Where(p => p.Rank!.Contains(rank));
+                cards = cards.Where(p => p.Rank!.Equals(rank));
             }
             if (!string.IsNullOrEmpty(name))
             {

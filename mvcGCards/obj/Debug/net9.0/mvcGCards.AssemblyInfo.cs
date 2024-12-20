@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mvcGCards")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+444dc5ce35f3b75b7bac17988c40c2b6808e9f5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b45f51cc257cc75111b2228b54623e85890d9a7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("mvcGCards")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mvcGCards")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

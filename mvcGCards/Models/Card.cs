@@ -10,7 +10,7 @@ namespace mvcGCards.Models
         [DataType(DataType.Date)]
         [Remote(action: "CheckDate", controller: "Cards", ErrorMessage = "Enter date of today")]
         public DateTime DateOfAdd { get; set; }
-        public string Description { get; set; }
+        public string ?Description { get; set; }
         public string Rank { get; set; }
         [Range(0, 1000)]
         public int Number { get; set; }
