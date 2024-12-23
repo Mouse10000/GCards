@@ -1,34 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using mvcGCards.Data;
 using mvcGCards.Models;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using Microsoft.AspNetCore.Identity;
 
 namespace mvcGCards.Controllers
 {
-    [Authorize]
     public class CardsController : Controller
     {
         private readonly mvcGCardsContext _context;
-
+        
         public CardsController(mvcGCardsContext context)
         {
             _context = context;
         }
 
         // GET: Cards
+
         public async Task<IActionResult> Index(string name, string rank = "all", int page = 1,
             SortState sortOrder = SortState.NameAsc)
         {
             int pageSize = 9;
-            //фильтрация
             IQueryable<Card> cards = _context.Card;
             if (!string.IsNullOrEmpty(rank) && rank != "all")
             {
@@ -86,7 +79,6 @@ namespace mvcGCards.Controllers
             {
                 return NotFound();
             }
-
             var card = await _context.Card
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (card == null)
@@ -98,6 +90,7 @@ namespace mvcGCards.Controllers
         }
 
         // GET: Cards/Create
+        [Authorize(Roles = "Admin, Moderator")]
         public IActionResult Create()
         {
             return View();
@@ -106,10 +99,17 @@ namespace mvcGCards.Controllers
         // POST: Cards/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin, Moderator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,DateOfCreate,Description,Rank,Number,Image")] CardViewModel cardView)
         {
+            
+            var currentUserId = await _context.Users
+                .Where(x => x.UserName == User.Identity.Name)
+                .Select(x => x.Id)
+                .FirstOrDefaultAsync();
+            Console.WriteLine(currentUserId);
             if (ModelState.IsValid)
             {
                 Card card = new Card
@@ -143,6 +143,7 @@ namespace mvcGCards.Controllers
             return View(cardView);
         }
         // GET: Cards/Edit/5
+        [Authorize(Roles = "Admin, Moderator")]
         public async Task<IActionResult> Edit(long? id)
         {
             if (id == null)
@@ -162,6 +163,7 @@ namespace mvcGCards.Controllers
         // POST: Cards/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin, Moderator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(long id, [Bind("Id,Name,DateOfAdd,Description,Rank,Number,Image")] Card card)
@@ -216,6 +218,7 @@ namespace mvcGCards.Controllers
             return View(card);
         }
         // GET: Cards/EditImage/5
+        [Authorize(Roles = "Admin, Moderator")]
         public async Task<IActionResult> EditImage(long? id)
         {
             if (id == null)
@@ -241,6 +244,7 @@ namespace mvcGCards.Controllers
             return View(cardView);
         }
         // POST: Cards/EditImage/5
+        [Authorize(Roles = "Admin, Moderator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditImage(long id, [Bind("Id,Name,DateOfAdd,Description,Rank,Number,Image")] CardViewModel cardView)
@@ -296,6 +300,7 @@ namespace mvcGCards.Controllers
             return View(cardView);
         }
         // GET: Cards/Delete/5
+        [Authorize(Roles = "Admin, Moderator")]
         public async Task<IActionResult> Delete(long? id)
         {
             if (id == null)
@@ -314,6 +319,7 @@ namespace mvcGCards.Controllers
         }
 
         // POST: Cards/Delete/5
+        [Authorize(Roles = "Admin, Moderator")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(long id)

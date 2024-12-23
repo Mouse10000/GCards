@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using mvcGCards.Models;
-
+using Microsoft.AspNetCore.Identity;
 namespace mvcGCards.Data
 {
     public class mvcGCardsContext : IdentityDbContext
@@ -11,9 +11,8 @@ namespace mvcGCards.Data
         {
         }
 
-        public DbSet<User> User { get; set; }
         public DbSet<Lot> Lot { get; set; }
         public DbSet<Card> Card { get; set; }
-        public DbSet<Card> CardEditModel { get; set; }
+        public DbSet<UserCard> UserCard { get; set; }
     }
 }
