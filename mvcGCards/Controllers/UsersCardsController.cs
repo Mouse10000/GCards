@@ -6,6 +6,7 @@ using mvcGCards.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using Microsoft.AspNetCore.Authentication;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace mvcGCards.Controllers
 {
     [Authorize]
@@ -146,12 +147,18 @@ namespace mvcGCards.Controllers
         {
             if (ModelState.IsValid)
             {
-                var userCardDb = await _context.UserCard
-                    .FirstOrDefaultAsync(m => m.CardId == userCard.CardId);
+                UserCard userCardDbAdd = new UserCard
+                {
+                    UserName = userCard.UserName,
+                    CardId = userCard.CardId,
+                    CountDublicate = userCard.CountDublicate
+                };
+                var userCardDb = await _context.UserCard.Where(p => p.CardId == userCard.CardId)
+                    .FirstOrDefaultAsync(m => m.UserName == userCard.UserName);
                 if (userCardDb == null)
                 {
 
-                    _context.UserCard.Add(userCard);
+                    _context.UserCard.Add(userCardDbAdd);
                 }
                 else
                 {
@@ -168,7 +175,6 @@ namespace mvcGCards.Controllers
         }
 
         // GET: UsersCards/Remove/5
-        [Authorize(Roles = "Admin, Moderator")]
         public async Task<IActionResult> Remove(long? idCard, string userName)
         {
 
@@ -194,7 +200,6 @@ namespace mvcGCards.Controllers
             return View(userCardRemoveModel);
         }
         // POST: UsersCards/Remove/5
-        [Authorize(Roles = "Admin, Moderator")]
         [HttpPost, ActionName("Remove")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> RemoveConfirmed(Card card, string userName, int count)
