@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Noobok\\source\\repos\\GCards\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\data\\mvcgcardscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\data\\mvcgcardscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\controllers\\userscardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\controllers\\userscardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\models\\usercardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\models\\usercardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\views\\userscards\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\views\\userscards\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\views\\userscards\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\views\\userscards\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\views\\userscards\\remove.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\views\\userscards\\remove.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|c:\\users\\noobok\\source\\repos\\gcards\\mvcgcards\\views\\userscards\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E69BD059-EE6F-43CC-AFA2-C7895DA8918F}|mvcGCards\\mvcGCards.csproj|solutionrelative:mvcgcards\\views\\userscards\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "mvcGCards\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "mvcGCards\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T00:34:09.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "mvcGCards\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "mvcGCards\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T23:53:49.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "mvcGCards\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "mvcGCards\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAACuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T23:53:11.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Program.cs",
+              "RelativeDocumentMoniker": "mvcGCards\\Program.cs",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Program.cs",
+              "RelativeToolTip": "mvcGCards\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T23:40:38.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mvcGCardsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Data\\mvcGCardsContext.cs",
+              "RelativeDocumentMoniker": "mvcGCards\\Data\\mvcGCardsContext.cs",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Data\\mvcGCardsContext.cs",
+              "RelativeToolTip": "mvcGCards\\Data\\mvcGCardsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T23:36:18.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\UsersCards\\Details.cshtml",
+              "RelativeDocumentMoniker": "mvcGCards\\Views\\UsersCards\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\UsersCards\\Details.cshtml",
+              "RelativeToolTip": "mvcGCards\\Views\\UsersCards\\Details.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T17:21:58.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserCardModel.cs",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Models\\UserCardModel.cs",
+              "RelativeDocumentMoniker": "mvcGCards\\Models\\UserCardModel.cs",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Models\\UserCardModel.cs",
+              "RelativeToolTip": "mvcGCards\\Models\\UserCardModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T10:09:54.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Remove.cshtml",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\UsersCards\\Remove.cshtml",
+              "RelativeDocumentMoniker": "mvcGCards\\Views\\UsersCards\\Remove.cshtml",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\UsersCards\\Remove.cshtml",
+              "RelativeToolTip": "mvcGCards\\Views\\UsersCards\\Remove.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T10:07:14.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\UsersCards\\Add.cshtml",
+              "RelativeDocumentMoniker": "mvcGCards\\Views\\UsersCards\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\UsersCards\\Add.cshtml",
+              "RelativeToolTip": "mvcGCards\\Views\\UsersCards\\Add.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T01:55:04.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\UsersCards\\Index.cshtml",
+              "RelativeDocumentMoniker": "mvcGCards\\Views\\UsersCards\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Views\\UsersCards\\Index.cshtml",
+              "RelativeToolTip": "mvcGCards\\Views\\UsersCards\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T01:38:20.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardsController.cs",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Controllers\\CardsController.cs",
+              "RelativeDocumentMoniker": "mvcGCards\\Controllers\\CardsController.cs",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Controllers\\CardsController.cs",
+              "RelativeToolTip": "mvcGCards\\Controllers\\CardsController.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAiwAQBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:37:21.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersCardsController.cs",
+              "DocumentMoniker": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Controllers\\UsersCardsController.cs",
+              "RelativeDocumentMoniker": "mvcGCards\\Controllers\\UsersCardsController.cs",
+              "ToolTip": "C:\\Users\\Noobok\\source\\repos\\GCards\\mvcGCards\\Controllers\\UsersCardsController.cs",
+              "RelativeToolTip": "mvcGCards\\Controllers\\UsersCardsController.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAAOkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:47:34.501Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
