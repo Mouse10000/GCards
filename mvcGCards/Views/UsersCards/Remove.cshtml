@@ -53,7 +53,8 @@
 
     <form asp-action="Remove">
         <input type="hidden" asp-for="UserName" />
-        <input type="hidden" asp-for="Card" />
+        <input type="hidden" asp-for="CardId" value=@Model.Card.Id/>
+        
         <p> Count of card @Model.Count </p>
         <div class="form-group">
             <label asp-for="Count" class="control-label"></label>

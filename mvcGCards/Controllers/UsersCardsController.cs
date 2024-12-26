@@ -202,13 +202,13 @@ namespace mvcGCards.Controllers
         // POST: UsersCards/Remove/5
         [HttpPost, ActionName("Remove")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> RemoveConfirmed(Card card, string userName, int count)
+        public async Task<IActionResult> RemoveConfirmed(string userName, int count, long cardId)
         {
             IQueryable<UserCard> userCards = _context.UserCard; //отбираем значения нашего пользователя
-            var userCardDb = userCards.Where(p => p.UserName!.Contains(userName))
-                .Where(p => p.UserName!.Contains(userName)).ToList();
-            var userCard = await _context.UserCard
-                .FirstOrDefaultAsync(m => m.Id == userCardDb[0].Id);
+
+            Console.WriteLine($"count D {cardId}");
+            var userCard = await _context.UserCard.Where(p => p.CardId == cardId)
+                .FirstOrDefaultAsync(m => m.UserName == userName);
             var countDublicate = userCard.CountDublicate - count;
             Console.WriteLine($"count D {userCard.CountDublicate}");
             if (countDublicate < 0)

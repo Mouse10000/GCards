@@ -10,7 +10,6 @@ namespace mvcGCards.Data
             : base(options)
         {
         }
-
         public DbSet<Lot> Lot { get; set; }
         public DbSet<Card> Card { get; set; }
         public DbSet<UserCard> UserCard { get; set; }

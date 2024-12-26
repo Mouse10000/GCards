@@ -845,5 +845,5 @@ C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\refint\mvcGCards.
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\mvcGCards.pdb
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\mvcGCards.genruntimeconfig.cache
 C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\ref\mvcGCards.dll
-C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\5ure0oydfm-45j6m45a3s.gz
-C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\n8f1mo34sq-45j6m45a3s.gz
+C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\5ure0oydfm-ctli8h1b23.gz
+C:\Users\Noobok\source\repos\GCards\mvcGCards\obj\Debug\net9.0\compressed\n8f1mo34sq-ctli8h1b23.gz

@@ -756,17 +756,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 08:57:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/mvcGCards/mvcGCards.45j6m45a3s.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\mvcGCards.45j6m45a3s.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"45j6m45a3s"},{"Name":"integrity","Value":"sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="},{"Name":"label","Value":"_content/mvcGCards/mvcGCards.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1260"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Dec 2024 02:01:00 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/mvcGCards/mvcGCards.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\mvcGCards.45j6m45a3s.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\mvcGCards.ctli8h1b23.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1260"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022aNzPI0fyLP8j/7Xb2zZcvU5RQ8XFf15h9y1owxXblvE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Dec 2024 02:01:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8PrIjTAIc6xlBVCZOBlDFBRRHs85mMeSq/X96NMqab0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1211"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228PrIjTAIc6xlBVCZOBlDFBRRHs85mMeSq/X96NMqab0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 00:07:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mvcGCards/mvcGCards.ctli8h1b23.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\mvcGCards.ctli8h1b23.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ctli8h1b23"},{"Name":"integrity","Value":"sha256-8PrIjTAIc6xlBVCZOBlDFBRRHs85mMeSq/X96NMqab0="},{"Name":"label","Value":"_content/mvcGCards/mvcGCards.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1211"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228PrIjTAIc6xlBVCZOBlDFBRRHs85mMeSq/X96NMqab0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 00:07:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
