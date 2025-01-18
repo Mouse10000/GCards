@@ -104,26 +104,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Lots/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90c1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Lots/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90c1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Lots/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90c1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Lots/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90c1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Lots/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90c1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -134,6 +114,34 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Trades/CreateRecipientCards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVzXENyZWF0ZVJlY2lwaWVudENhcmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Trades/CreateSenderCards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVzXENyZWF0ZVNlbmRlckNhcmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Trades/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVzXENyZWF0ZVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Trades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Trades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Trades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/Trades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Noobok/source/repos/GCards/mvcGCards/Views/UsersCards/Add.cshtml]

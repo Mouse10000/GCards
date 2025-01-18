@@ -1,0 +1,42 @@
+﻿@model mvcGCards.Models.TradeUserView
+
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Trade";
+}
+
+<h1>Trade stage 1</h1>
+
+<h4>select the user you want to offer trade</h4>
+<hr />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateUser">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="UserSender" type="hidden" class="form-control" value=@UserManager.GetUserName(User) />
+
+            <input asp-for="State" type="hidden" class="form-control" />
+            @foreach (var item in Model.Users) {
+                @if (item != @UserManager.GetUserName(User))
+                {
+                    @Html.RadioButton("UserRecipient", item)
+                    <span>@item</span> <br />
+                }
+            }
+
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Next stage" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

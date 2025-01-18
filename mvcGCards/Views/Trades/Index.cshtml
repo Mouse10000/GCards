@@ -1,0 +1,81 @@
+﻿@model IEnumerable<mvcGCards.Models.Trade>
+
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<h1>Your trades</h1>
+<p>
+    <a asp-action="CreateUser">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserRecipient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.State)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+    @if (item.UserSender == @UserManager.GetUserName(User)){
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserRecipient)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.State)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+}
+    </tbody>
+</table>
+
+
+<h1>Trades for your</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserSender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.State)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @if (item.UserRecipient == @UserManager.GetUserName(User))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserSender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.State)
+                    </td>
+                    <td>
+                        <a asp-action="DetailsTrade" asp-route-id="@item.Id">Details</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

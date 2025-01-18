@@ -10,8 +10,10 @@ namespace mvcGCards.Data
             : base(options)
         {
         }
-        public DbSet<Lot> Lot { get; set; }
         public DbSet<Card> Card { get; set; }
         public DbSet<UserCard> UserCard { get; set; }
+        public DbSet<Trade> Trade { get; set; }
+        public DbSet<CardSender> CardSender { get; set; }
+        public DbSet<CardRecipient> CardRecipient { get; set; }
     }
 }
