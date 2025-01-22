@@ -1,36 +1,168 @@
-﻿@model mvcGCards.Models.Trade
+﻿@model mvcGCards.Models.TradeDetailView
 
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
-
+@if(Model.Trade.State == "NotSended"){
+    <h1>Confirm</h1>
+}
+else{
+    <h1>Details</h1>
+}
 <div>
     <h4>Trade</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UserSender)
+            @Html.DisplayNameFor(model => model.Trade.UserRecipient)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UserSender)
+            @Html.DisplayFor(model => model.Trade.UserRecipient)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UserRecipient)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Trade.UserSender)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UserRecipient)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Trade.UserSender)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.State)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.State)
-        </dd>
+        @if (Model.Trade.State == "Accepted" || Model.Trade.State == "Disaccepted")
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Trade.State)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Trade.State)
+            </dd>
+        }
     </dl>
+
+
+    @if (Model.Trade.State == "Sended" && Model.Trade.UserRecipient == @UserManager.GetUserName(User))
+    {
+        <h3>Сards will be sent</h3>
+    }
+    else
+    {
+        <h3>Сards will be received </h3>
+    }
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CardRecipient[0].Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CardRecipient[0].Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CardRecipient[0].Image)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.CardRecipient.Count(); i++)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => Model.CardRecipient[i].Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => Model.CardRecipient[i].Number)
+                    </td>
+                    <td>
+                        @Html.Raw("<img style='width:60px; height:80px;' src=\"data:image/jpeg;base64,"
+                                 + Convert.ToBase64String(Model.CardRecipient[i].Image) + "\" />")
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (Model.Trade.State == "Sended" && Model.Trade.UserRecipient == @UserManager.GetUserName(User))
+    {
+        <h3>Сards will be received </h3>
+    }
+    else
+    {
+        <h3>Сards will be sent</h3>
+    }
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CardSender[0].Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CardSender[0].Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CardSender[0].Image)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.CardSender.Count(); i++)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => Model.CardSender[i].Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => Model.CardSender[i].Number)
+                    </td>
+                    <td>
+                        @Html.Raw("<img style='width:60px; height:80px;' src=\"data:image/jpeg;base64,"
+                                          + Convert.ToBase64String(Model.CardSender[i].Image) + "\" />")
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if(Model.Trade.State == "NotSended"){
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="ConfirmSend">
+                    @Html.HiddenFor(c => Model.Trade.Id)
+
+                    <br />
+                    <div class="form-group">
+                        <input type="submit" value="Send" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+    @if (Model.Trade.State == "Sended" && Model.Trade.UserRecipient == @UserManager.GetUserName(User))
+    {
+        <table>
+            <tr>
+                <td>
+                    <form asp-action="AsseptTrade">
+                        @Html.HiddenFor(c => Model.Trade.Id)
+                        <div class="form-group">
+                            <input type="submit" value="Accept" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form asp-action="DisasseptTrade">
+                        @Html.HiddenFor(c => Model.Trade.Id)
+                        <div class="form-group">
+                            <input type="submit" value="Disaccept" class="btn btn-primary"
+                                   style="color:red" />
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    }
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
